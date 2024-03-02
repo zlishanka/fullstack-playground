@@ -7,15 +7,32 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
+  
   <!-- Hello world
   <script src="script.js"></script> -->
-  
+  <!-- html color -->
   <h1 style="color:blue;background-color:red">First heading </h1>
    <h2>Second heading</h2>
    <h3>Third heading</h3>
+
+  <!-- google material icons -->
+  <i class="material-icons">cloud</i>
+  <i class="material-icons">computer</i>
+  <i class="material-icons">traffic</i> 
+  <br>
+
+  <!-- dropdown menu -->
+  <button class="dropdownbutton">Dropdown Button</button> 
+  <div class="dropdown-menu">
+    <a href="#">List</a>
+    <a href="#">List</a>
+    <a href="#">List</a>
+    <a href="#">List</a>
+  </div> 
   
 <pre> <!-- pre type -->
 <!-- new line or break --> 
@@ -57,7 +74,7 @@ O<sub>2</sub> x<sup>3</sup>
 </table>
 
 <!-- Create list -->
-<ul>
+<ul class="pc">
   <li>CNN network has the best news</li>
   <li>BBC netwoik has the worst news</li>
 </ul>
@@ -68,19 +85,26 @@ O<sub>2</sub> x<sup>3</sup>
   <b>This is bold div</b>
 </div>
 <div>
-  <h2>Another div</h2>
+  <h2 id="div2">Another div</h2>
   <b>What heck</b>
 </div>
 <!-- sign, copywrite -->
-<p>Copyright &copy;Zheng</p>
+<p class="pc">Copyright &copy;Zheng</p>
 <p>Copyright &#174;Roy</p>
 <p>Copyright &#8482;SFO</p>
 <p>This is euro sign &euro;</p>
 <!-- Iframe - web page inside web page -->
   <iframe src="https://youtube.com" height="100"></iframe>
 
-  
-  <img src = "https://www.reuters.com/resizer/IBrXLGnCymPTsTxR2hMvLFxmkFQ=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4SEFHBIQFRLS7KGDCZ5A664QWY.jpg", height="260">
+<!-- forms -->
+<form action="form.html" method="GET">>
+  <label for="username">Name</label>
+  <input type="text" name="username" id="username">
+  <label for="school">School</label>
+  <input type="text" name="school" id="school">
+  <input type="submit" value="Send">
+</form>
+  <img src = "https://www.reuters.com/resizer/IBrXLGnCymPTsTxR2hMvLFxmkFQ=/1200x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4SEFHBIQFRLS7KGDCZ5A664QWY.jpg", height="120">
   
 </body> 
 

@@ -1,0 +1,107 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* change background color, apply to whole body */ 
+body {
+  /* background-color: green;
+  dtt: yybh; */
+  opacity: 0.8;
+  background-image:   url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg");
+  
+}
+/* group settings 
+h1, p {
+  color: blue;
+}
+*/
+
+/* apply only on specific id */
+#div2 {
+  background-color: green;
+}
+/* apply only on specific class for paragrpah */
+p.pc {
+  background-color: yellow;
+}
+ul.pc {
+  background-color: red;
+}
+
+/* margin */
+p {
+  margin-left: 50%;
+  /* margin: 50px, 50px, 50px, 50px; */
+}
+
+/* border */
+h1 {
+  border-style: inset; /* solid; dashed; double; ridge; groove; outset*/
+  border-width: 4px; /* thick */
+  border-color: purple;
+  border-radius: 10px;
+}
+
+/* padding */
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+/* outline */
+h3 {
+  outline-style: solid; 
+  text-align: center; /* justify */
+  text-decoration-color: red;
+  text-decoration-thickness: 10px;
+  text-transform: uppercase; /* capitalize; lowercase; */
+  /* text-indent: 30px; 
+  letter-spacing: 3px; */
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* table */
+table, th, td {
+  /* display: none;
+  visibility: hidden */
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;
+}
+th,td {
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+}
+tr:hover {
+  background-color: blue;
+}  
+
+/* dropdown menu */
+.dropdownbutton {
+  background-color: blue;
+  color: white;
+  padding: 13px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-menu {
+  /* dislay: ; */
+  poisition: absolute;
+  backgroud-color: lightblue;
+  min-width: 150px;
+}
+
+.dropdown-menu a {
+  color: black;
+  passing: 11px 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-menu a:hover {
+  backgroud-color: white;
+}
